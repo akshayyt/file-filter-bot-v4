@@ -702,7 +702,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="💌 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-        InlineKeyboardButton('🙏 Subscribe my YouTube channel 🙏', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
+        InlineKeyboardButton('Request to Owner Your Files', url='https://t.me/Keerthy_Owner_bot')
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
